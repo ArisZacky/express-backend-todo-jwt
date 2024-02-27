@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Express JS Backend with JWT for ToDo",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
@@ -19,19 +18,15 @@
   ],
   "author": "Zacky",
   "license": "ISC",
-  
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "bcryptjs": "^2.4.3",
-    "cookie-session": "^2.1.0",
-    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "fastest-validator": "^1.17.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.1",
     "nodemon": "^3.1.0",
-    "prisma": "^5.10.2",
-    "sequelize": "^6.37.1"
+    "prisma": "^5.10.2"
   }
 }
