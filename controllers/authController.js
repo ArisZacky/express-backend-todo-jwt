@@ -49,7 +49,6 @@ class AuthController {
         try {
             // validate
             const schema = {
-                nama: 'string',
                 username: 'string',
                 password: 'string',
             }
