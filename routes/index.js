@@ -1,6 +1,7 @@
 const { Router } = require("express");
 
 const todoRouter = require('./todoRoute')
+const authRouter = require('./authRoute')
 
 const router = Router();
 
@@ -9,6 +10,7 @@ router.get('/', (req, res) => {
 })
 
 router.use(todoRouter)
+router.use(authRouter)
 
 
 module.exports = router;
